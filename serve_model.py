@@ -3,6 +3,7 @@ from io import BytesIO
 import numpy as np
 import tensorflow as tf
 from PIL import Image
+
 from tensorflow.keras.applications.imagenet_utils import decode_predictions
 
 model = None
